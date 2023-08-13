@@ -1,0 +1,125 @@
+
+.navbar{
+  display: flex;
+  padding-left: 30px ;
+  justify-content: flex-end;
+  align-items: end;
+  
+}
+
+.navbar li{
+  list-style-type: none;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+.nav-link{
+  color: #424141;
+  transition: 0.3s ease-in-out;
+ 
+}
+.nav-link:hover{
+  color: #FFB400;
+}
+
+#name{
+  color: #FFB400;
+}
+.spec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.VIJAY{
+  border-radius: 69px;
+  background-color: #ffb300;
+}
+#name{
+  padding: 0 200px;
+  color: #FFB400;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 4.8px;
+  margin-bottom: 0px;
+ 
+}
+#line2{
+  margin: 0px;
+  color: #6C757D;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 1.55px;
+margin-right: 35px;
+}
+.para{
+  color: #93989D;
+text-align: justify;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+width: 600px;
+height: 200px;
+padding-left: 210px;
+letter-spacing: 1.5px;
+
+}
+#more-about{
+  border-radius: 50px;
+border: 2px solid #FFB400;
+background: #FFF;
+letter-spacing: .5px;
+color: #4F4F4F;
+font-size: 15px;
+width: 200px;
+height: 30px;
+text-align: center;
+padding-top: 10px;
+margin-left: 220px;
+
+}
+#arrow{
+  background-color:#FFB400;
+  color: white;
+  font-size: 15px;
+  padding: 5px ;
+  border-radius: 15px;
+  padding-left: 5px;
+  text-align: center;
+  margin-left: 10px;
+ 
+}
+#socialmedia-link{
+  display: flex;
+  gap: 20px;
+  width: 20px;
+  height: 25px;
+  object-fit: cover;
+
+
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#img2{
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+}
+#img3{
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+
+}
+#img1{
+  width: 25px;
+  height: 25px;
+}
