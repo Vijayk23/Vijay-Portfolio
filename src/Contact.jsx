@@ -1,5 +1,6 @@
 import { Sociallinks } from "./Sociallinks";
 import { Form } from "./Form";
+import { Link } from "react-router-dom";
 
 export function Contact() {
   return (
@@ -30,6 +31,9 @@ export function Contact() {
             <p id="sociallink2">
               <Sociallinks />
             </p>
+            <Link to="/">
+              <button id="backtohome">BACK TO HOME</button>
+            </Link>
           </div>
           <Form id="form1" />
         </div>

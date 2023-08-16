@@ -1,5 +1,5 @@
 *{
-  font-family: sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 /* .backimg{
   position: absolute;
@@ -20,6 +20,8 @@
     height: 100%;
   } */
 /* } */
+
+
 .navbar{
   display: flex;
   justify-content: flex-end;
@@ -117,9 +119,9 @@ margin-top: 10px;
   background-color:#FFB400;
   color: white;
   font-size: 14px;
-  border-radius: 25px;
+  border-radius: 50px;
   margin-left: 2px;
-  padding: 18px;
+  padding: 17px;
  
 }
 #socialmedia-link{
@@ -172,14 +174,13 @@ margin-top: 10px;
  
 }
 #dontbe{
-  color: #4F4F4F;
+  color: #767676;
 text-align: justify;
 font-size: 25px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+font-weight: 700;
 letter-spacing: 1.3px;
-margin-left: 50px;
+margin-left: 60px;
+margin-bottom: 60px;
 }
 #para{
   color: #93989D;
@@ -232,7 +233,7 @@ margin-top: -43px;
 
 }
 #sociallink2{
-  margin-top: 80px;
+  margin-top: 50px;
 
   margin-left: 60px;
 
@@ -301,4 +302,68 @@ margin-top: -43px;
 }
 #form1{
  margin-right: 20px;
+}
+
+#backtohome{
+  background-color: white;
+  color: #FFB400;
+  border: 1px solid #FFB400;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 20px 50px;
+  cursor: pointer;
+  font-size: 15x;
+  width: 30%;
+  letter-spacing: 1px;
+  height: 30px;
+  font-weight: bold;
+}
+#infohead{
+  color: #9c9c9c;
+text-align: justify;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.3px;
+margin-left: 50px;
+margin-bottom: 25px;
+}
+.infos{
+  color: #4F4F4F;
+  font-size: 15px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+#infos2{
+  color: #0AFF40;
+}
+#cv{
+
+  background-color: white;
+  color: #FFB400;
+  border: 1px solid #FFB400;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 30px 50px;
+  cursor: pointer;
+  font-size: 15x;
+  width: 12%;
+  letter-spacing: 1px;
+  height: 30px;
+  font-weight: bold;
+  margin-left: 60px;
+
+}
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #93989D;
+
 }
