@@ -38,12 +38,14 @@ export function Workexperience() {
 function Work({ work }) {
   return (
     <div className="card-container">
-      <p>
+      <p id="cardline1">
         {work.num}
         <sup>{work.plus}</sup>
       </p>
-      <p> {work.title1}</p>
-      <p> {work.title2}</p>
+      <div id="cardline2">
+        <p> {work.title1}</p>
+        <p> {work.title2}</p>
+      </div>
     </div>
   );
 }
