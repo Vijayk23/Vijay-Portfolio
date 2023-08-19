@@ -19,7 +19,7 @@ export function Navbar() {
             </li>
 
             <li>
-              <Link to="/Form" className="nav-link">
+              <Link to="/sociallink" className="nav-link">
                 BLOG
               </Link>
             </li>

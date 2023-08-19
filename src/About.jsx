@@ -1,4 +1,6 @@
+import { Skills } from "./Skills";
 import { Workexperience } from "./Workexperience";
+import { Experience } from "./Experience";
 
 export function About() {
   return (
@@ -44,6 +46,9 @@ export function About() {
       <h2 id="getin-touch">
         MY <span id="touch">SKILL</span>
       </h2>
+      <Skills />
+      <div className="line"></div>
+      <Experience />
     </div>
   );
 }

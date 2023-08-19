@@ -208,11 +208,7 @@ margin-top: -43px;
   margin-left: 130px;
 
 }
-#sociallink2{
-  display: flex;
-  gap: 0px;
-
-} 
+ 
 #form{
   width: 400px;
   border-radius: 5px;
@@ -283,7 +279,7 @@ margin-top: -43px;
   border: 1px solid #22ABD5;
   border-radius: 50px;
   padding: 5px;
-  margin: 20px 50px;
+  margin: 30px 70px;
   cursor: pointer;
   font-size: 15x;
   width: 30%;
@@ -292,29 +288,27 @@ margin-top: -43px;
   font-weight: bold;
 }
 #infohead{
-  color: #9c9c9c;
+  color: #22ABD5;
 text-align: justify;
 font-size: 15px;
-letter-spacing: 1.3px;
+letter-spacing: 1.5px;
 margin-left: 50px;
 margin-bottom: 2px;
 }
 .infos1{
-  color: #4F4F4F;
+  color: #cccccc;
   font-size: 15px;
   text-align: justify;
   font-weight: bold;
-  letter-spacing: 1.3px;
+  letter-spacing: 2px;
   margin-left: 5px;
   margin-bottom: 15px;
-  line-height: 20px;
+  line-height: 30px;
 }
 #infos2{
   color: #0AFF40;
 }
 #cv{
-
-  background-color: white;
   color: #22ABD5;
   border: 1px solid #22ABD5;
   border-radius: 50px;
@@ -371,7 +365,27 @@ margin-top: -10px;
 }
 .line{
   align-items: center;
-  border: 0.5px solid #d5d5d5;
+  border: 0.1px solid #868686;
   margin: 70px 500px;
   
 }
+#sociallink2{
+  display: flex;
+  justify-content: flex-end
+}
+
+.skillcard{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin: 0 250px;
+}
+
+
+#skillimg{
+  width: 300x;
+  height: 300px;
+
+}
+
+
+

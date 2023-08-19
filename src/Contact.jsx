@@ -28,15 +28,15 @@ export function Contact() {
             <img id="img" src="./images/phone.png" alt="phonenumber" />
             <p id="address">CALL ME</p>
             <p id="address-line">+91 848 999 2187</p>
-            <p id="sociallink2">
-              <Sociallinks />
-            </p>
             <Link to="/">
               <button id="backtohome">BACK TO HOME</button>
             </Link>
           </div>
           <Form id="form1" />
         </div>
+        <p id="sociallink2">
+          <Sociallinks />
+        </p>
       </div>
     </>
   );
