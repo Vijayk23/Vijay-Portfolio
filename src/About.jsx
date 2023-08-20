@@ -1,13 +1,13 @@
 import { Skills } from "./Skills";
 import { Workexperience } from "./Workexperience";
 import { Experience } from "./Experience";
+import { Navbar } from "./Navbar";
 
 export function About() {
   return (
     <div className="about">
-      <h2 id="getin-touch">
-        ABOUT <span id="touch">ME</span>
-      </h2>
+      <Navbar />
+
       <div className="aboutline1">
         <div className="infos">
           <h6 id="dontbe">PERSONAL INFOS</h6>
@@ -42,11 +42,26 @@ export function About() {
           <Workexperience />
         </div>
       </div>
-      <div className="line"></div>
+      {/* <div className="line"></div>
+
       <h2 id="getin-touch">
-        MY <span id="touch">SKILL</span>
+        SKILS & <span id="touch"> TOOLS</span>
       </h2>
-      <Skills />
+      <p className="para1">
+        I possess a diverse skill set in web development and design, with
+        proficiency in
+        <span id="para-skillline"> HTML, JavaScript, ReactJS, and CSS.</span>
+        Leveraging these skills, I have the capability to create dynamic and
+        interactive web applications that deliver seamless user experiences.
+        <span id="para-skillline">
+          {" "}
+          My familiarity with ReactJS empowers me to build modern and efficient
+          user interfaces,
+        </span>
+        enhancing the overall functionality of web projects.
+      </p> */}
+
+      {/* <Skills /> */}
       <div className="line"></div>
       <Experience />
     </div>

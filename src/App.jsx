@@ -1,10 +1,9 @@
-import { About } from "./About";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { Contact } from "./Contact";
-import { Form } from "./Form";
-import { Sociallinks } from "./Sociallinks";
+import { Projects } from "./Projects";
+import { About } from "./About";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="sociallink" element={<Sociallinks />} />
+        <Route path="projects" element={<Projects />} />
       </Routes>
     </div>
   );

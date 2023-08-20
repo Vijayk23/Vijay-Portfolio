@@ -1,14 +1,15 @@
 import { Sociallinks } from "./Sociallinks";
 import { Form } from "./Form";
-import { Link } from "react-router-dom";
+import { Navbar } from "./Navbar";
 
 export function Contact() {
   return (
     <>
       <div className="contact">
-        <h2 id="getin-touch">
+        <Navbar />
+        {/* <h2 id="getin-touch">
           GET IN <span id="touch">TOUCH</span>
-        </h2>
+        </h2> */}
         <div className="container">
           <div>
             <h6 id="dontbe"> DON'T BE SHY !</h6>
@@ -27,10 +28,7 @@ export function Contact() {
             <p id="address-line">Vijaysachinvij23@gmail.com</p>
             <img id="img" src="./images/phone.png" alt="phonenumber" />
             <p id="address">CALL ME</p>
-            <p id="address-line">+91 848 999 2187</p>
-            <Link to="/">
-              <button id="backtohome">BACK TO HOME</button>
-            </Link>
+            <p id="address-line">+91 701 099 3660</p>
           </div>
           <Form id="form1" />
         </div>
