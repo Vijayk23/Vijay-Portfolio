@@ -32,7 +32,7 @@ export function About() {
               <span id="infohead">MAIL ID:</span> VIJAYSACHINVIJ23@GMAIL.COM
             </p>
           </div>
-          <a download href="./images/vijay.pdf">
+          <a download href="./images/VIJAY.pdf">
             <button id="cv">
               DOWNLOAD CV <span id="downarrow">↓</span>
             </button>
@@ -42,26 +42,7 @@ export function About() {
           <Workexperience />
         </div>
       </div>
-      {/* <div className="line"></div>
 
-      <h2 id="getin-touch">
-        SKILS & <span id="touch"> TOOLS</span>
-      </h2>
-      <p className="para1">
-        I possess a diverse skill set in web development and design, with
-        proficiency in
-        <span id="para-skillline"> HTML, JavaScript, ReactJS, and CSS.</span>
-        Leveraging these skills, I have the capability to create dynamic and
-        interactive web applications that deliver seamless user experiences.
-        <span id="para-skillline">
-          {" "}
-          My familiarity with ReactJS empowers me to build modern and efficient
-          user interfaces,
-        </span>
-        enhancing the overall functionality of web projects.
-      </p> */}
-
-      {/* <Skills /> */}
       <div className="line"></div>
       <Experience />
     </div>

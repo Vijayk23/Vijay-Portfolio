@@ -59,10 +59,21 @@ export function Home() {
         <div id="contact-div">
           <div>
             <p id="home-contact-para">
-              Proficient in{" "}
-              <span id="contact-para1">software and web development</span>, I'm
-              committed to designing exceptional solutions that drive success.
-              Let's shape the digital landscape together
+              Looking to enhance{" "}
+              <span id="contact-para1">
+                your team with a skilled and dedicated frontend developer? Look
+                no further!
+              </span>{" "}
+              With a passion for crafting seamless user experiences and a strong
+              command of{" "}
+              <span id="contact-para1">
+                HTML, CSS, JavaScript, and ReactJs.{" "}
+              </span>
+              I bring a creative and detail-oriented approach to frontend
+              development. I thrive in transforming design concepts into
+              responsive, user-friendly interfaces that captivate users. Let's
+              collaborate to create visually stunning and highly functional web
+              applications that leave a lasting impression.
             </p>
             <Sociallinks />
           </div>
