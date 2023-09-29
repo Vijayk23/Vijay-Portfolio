@@ -483,6 +483,9 @@ font-weight: bold;
 .project-card{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
+
  
 }
 .project-card1{
@@ -491,6 +494,7 @@ font-weight: bold;
   width: 300px;
   height: auto;
   border-radius: 10px;
+  margin: 15px;
 
 }
 #project-img{
