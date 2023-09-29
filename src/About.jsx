@@ -1,4 +1,3 @@
-import { Skills } from "./Skills";
 import { Workexperience } from "./Workexperience";
 import { Experience } from "./Experience";
 import { Navbar } from "./Navbar";

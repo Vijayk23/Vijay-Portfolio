@@ -31,6 +31,13 @@ export function Projects() {
       description:
         "Immerse yourself in strategic battles with our Chess Board app. Play, learn, and master the classic game on your device. Checkmate!",
     },
+    {
+      pic: "./images/STOPWATCH.png",
+      name: "STOP WATCH",
+      url: "https://vijaykstopwatch.netlify.app/",
+      description:
+        "React stopwatch: A simple timer app with start, stop, and reset functionality to track elapsed time accurately.",
+    },
   ];
   return (
     <div className="projects">
