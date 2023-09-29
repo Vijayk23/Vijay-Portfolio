@@ -18,12 +18,13 @@ export function Projects() {
         "Streamline your calculations with our user-friendly calculator app. Accurate solutions for equations on the fly.",
     },
     {
-      pic: "./images/personal portfolio.png",
-      name: "PERSONAL PORTFOLIO",
-      url: "https://vijay23.netlify.app/",
+      pic: "./images/STOPWATCH.png",
+      name: "STOP WATCH",
+      url: "https://vijaykstopwatch.netlify.app/",
       description:
-        "Explore my journey through innovative projects and skills in my personal portfolio app. Discover my creative world.",
+        "React stopwatch: A simple timer app with start, stop, and reset functionality to track elapsed time accurately.",
     },
+
     {
       pic: "./images/Chess Board.png",
       name: "CHESS BOARD",
@@ -32,11 +33,11 @@ export function Projects() {
         "Immerse yourself in strategic battles with our Chess Board app. Play, learn, and master the classic game on your device. Checkmate!",
     },
     {
-      pic: "./images/STOPWATCH.png",
-      name: "STOP WATCH",
-      url: "https://vijaykstopwatch.netlify.app/",
+      pic: "./images/personal portfolio.png",
+      name: "PERSONAL PORTFOLIO",
+      url: "https://vijay23.netlify.app/",
       description:
-        "React stopwatch: A simple timer app with start, stop, and reset functionality to track elapsed time accurately.",
+        "Explore my journey through innovative projects and skills in my personal portfolio app. Discover my creative world.",
     },
   ];
   return (
